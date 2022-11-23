@@ -5,7 +5,7 @@ import Registercomponent from "./Registercomponent";
 import "./Home.css";
 import Sellsdescribe from "./Sellsdescribe";
 import Footer from "../Common/Footer";
-import { Icon } from "@iconify/react";
+
 
 const Home = () => {
   return (

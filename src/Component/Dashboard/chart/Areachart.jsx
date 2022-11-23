@@ -1,15 +1,15 @@
 import React from "react";
 
 import {
-  Line,
+ 
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
-  Brush,
+ 
   AreaChart,
   Area,
-  Legend,
+ 
 } from "recharts";
 
 

@@ -1,6 +1,6 @@
 import React from "react";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import count_info from "../images/circle_graph.png";
+import { Container, Row, Col } from "react-bootstrap";
+// import count_info from "../images/circle_graph.png";
 import user_photo from "../images/seller_girl_image.png";
 import customerorder from "../images/customer_placeorder.png";
 import deliverproduct from "../images/deliver_product.png";
@@ -29,7 +29,7 @@ const Sellsdescribe = () => {
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitone} />
+                    <img src={digitone} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -51,7 +51,7 @@ const Sellsdescribe = () => {
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digittwo} />
+                    <img src={digittwo} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -77,7 +77,7 @@ const Sellsdescribe = () => {
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitthree} />
+                    <img src={digitthree} alt=""/>
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -99,7 +99,7 @@ const Sellsdescribe = () => {
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitfour} />
+                    <img src={digitfour} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">

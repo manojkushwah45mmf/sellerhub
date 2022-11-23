@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import play_store from "../images/playstore.png";
 import app_store from "../images/appstore.png";
 import { Icon } from "@iconify/react";
-import logo_set from "../images/whiteset_logo.png";
+
 
 
 

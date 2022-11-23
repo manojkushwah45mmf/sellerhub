@@ -39,7 +39,7 @@ const Dashboard = () => {
                 {" "}
                 <div className="p-3">
                   <div className="mt-5 ms-3 d-flex justify-contnet -between">
-                 <img src={image_url.service_provide}/>
+                 <img src={image_url.service_provide} alt=""/>
                     <div className="ms-4 num_digit">
                       <h4>44125</h4>
                       <p>Completed</p>
