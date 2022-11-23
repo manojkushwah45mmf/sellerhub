@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+
+
+  body {
+  font-family: 'Poppins', sans-serif !important;
+
+ }
+
+ .header_bg{
+  background-color:#FF0185;
+
+}
+
+.nav_link_cl{
+ color: #fff !important;
+
+}
+
+.header_search{
+
+background: none !important;
+border: none !important;
+color: #fff !important;
+
+}
+
+.top_header{
+
+display: flex;
+justify-content: space-between;
+align-items: center !important;
+
+}
+
+.login_seller_btn{
+ background: #FF0185 !important;
+ border: 1px solid #FF0185 !important;
+  font-size: 18px !important;
+  border-radius: 40px !important;
+
+    }
+
+.banner_show{
+ background-image: url("../src/Component/images/seller_bg_image.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 600px;
+
+
+}
+
+.bg-box{
+    position: absolute;
+    top: 69px;
+
+}
+
+
+/* .shopping_app{
+ color: #fff;
+ font-weight: bold;
+
+} */
+
+.shwakeen_today{
+  color: #fff !important;
+  font-weight: 400;
+}
+
