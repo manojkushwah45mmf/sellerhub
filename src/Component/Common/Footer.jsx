@@ -3,28 +3,22 @@ import { Container, Row, Col } from "react-bootstrap";
 import play_store from "../images/playstore.png";
 import app_store from "../images/appstore.png";
 import { Icon } from "@iconify/react";
-
-
+import footer_icon from "../../Component/images/footer-shawkeen.png"
 
 
 
 
 const Footer = () => {
-
-
- 
- 
- 
   return (
-   <div>
+    <div>
       <div className="mb-3 footer_bg">
         <Container>
           <Row>
             <Col lg={3}>
               <div className="mt-5 white_logo">
-                <h4 className="mb-4">shawkeen</h4>
+                <img  className="mb-3" src={footer_icon} alt="" width={150} /> <br/>
                 <span className="text-light fw-bold"> Address :</span>
-                <span className=" text-light ms-2">
+                <span className="text-light ms-2">
                   2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
                 </span>
                 <div className="mt-4">
@@ -52,7 +46,7 @@ const Footer = () => {
             </Col>
             <Col lg={3}>
               {" "}
-              <div className="mt-5 footer_link">
+              <div className="mt-5 mb-5 footer_link">
                 <p>Useful links</p>
                 <ul>
                   <li>Lorem Ipsum</li>
@@ -64,7 +58,7 @@ const Footer = () => {
               </div>
             </Col>
             <Col lg={3}>
-              <div className="mt-5 footer_link">
+              <div className="mt-5  footer_link">
                 <p>Download Our App</p>
                 <div className="link_detail d-flex justify-content-between">
                   <img src={app_store} alt="" width={130} />
@@ -74,7 +68,7 @@ const Footer = () => {
                 </div>
                 <div className="mt-4 social_link_detail">
                   <p>Social Media platform</p>
-                 <ul>
+                  <ul>
                     <li>
                       <Icon className="icv" icon="ri:facebook-box-fill" />
                     </li>
@@ -96,7 +90,7 @@ const Footer = () => {
           </Row>
         </Container>
       </div>
-      <div className="py-2 text-center">
+      <div className="py-2  text-center">
         ©2021 Shawkeen | All rights reserved
       </div>
     </div>

@@ -20,7 +20,7 @@ const Sellsdescribe = () => {
         <div className="mt-5">
           <Row>
             <Col lg={6}>
-              <div className="sellers_descriptions">
+              <div className=" sellers_descriptions">
                 <h3>How to Sell on Shawkeen</h3>
               </div>
               <div className="mt-3">
@@ -68,7 +68,7 @@ const Sellsdescribe = () => {
             </Col>
           </Row>
         </div>
-        <div className="mt-5">
+        <div className="mt-5 mb-5">
           <Row>
             <Col lg={6}>
               <div className="mt-3">

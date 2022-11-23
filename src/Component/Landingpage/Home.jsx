@@ -1,19 +1,24 @@
 import React from "react";
 import { Button, Container, Row, Col, Form } from "react-bootstrap";
-import side_logo from "../images/shawkeen.png";
 import Registercomponent from "./Registercomponent";
 import "./Home.css";
 import Sellsdescribe from "./Sellsdescribe";
 import Footer from "../Common/Footer";
+import image_url from "../Common/images";
+
+
 
 
 const Home = () => {
+
+
+  
   return (
     <div className="mt-3">
       <div className="banner_show">
         <Container>
           <div className="p-0 top_header">
-            <img src={side_logo} alt="" width={130} />
+            <img src={image_url.side_logo} alt="" width={130} />
             <div>
               <Button className="login_seller_btn" size="lg">
                 Login for Existing Sellers{" "}

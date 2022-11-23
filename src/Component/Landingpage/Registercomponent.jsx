@@ -32,7 +32,7 @@ import count_info from "../images/circle_graph.png";
           </Col>
           <Col lg={6}>
             <div className="text-center">
-              <img src={count_info} width={400} alt="" />
+              <img src={count_info} width={500} alt="" />
             </div>
           </Col>
         </Row>
