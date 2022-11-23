@@ -1,17 +1,16 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import count_info from "../images/circle_graph.png";
+import image_url from "../Common/images";
 
 
 
 
- const Registercomponent = () => {
- 
- return (
+const Registercomponent = () => {
+
+  return (
     <div>
       <Container>
-        <Row className="mt-4" >
-      
+        <Row className="mt-4">
           <Col lg={6}>
             <div className="mt-1 sellers_descriptions">
               <h3>Why Sell on Shawkeen?</h3>
@@ -32,7 +31,7 @@ import count_info from "../images/circle_graph.png";
           </Col>
           <Col lg={6}>
             <div className="text-center">
-              <img src={count_info} width={500} alt="" />
+             <img src={image_url.count_info} width={500} alt="" />
             </div>
           </Col>
         </Row>

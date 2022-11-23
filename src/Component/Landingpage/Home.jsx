@@ -10,9 +10,6 @@ import image_url from "../Common/images";
 
 
 const Home = () => {
-
-
-  
   return (
     <div className="mt-3">
       <div className="banner_show">

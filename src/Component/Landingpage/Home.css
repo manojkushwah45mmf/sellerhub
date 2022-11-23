@@ -138,8 +138,6 @@ line-height: 1px;
 
 }
 
-
-
 .digittype_value .placeholder{
  font-size: 13px;
 }
@@ -164,8 +162,9 @@ position: absolute;
   
 }
 
-.pass_value input:focus{
- outline: none;
+ .pass_value.form-control ::placeholder{
+
+ font-size: 14px;
 
 }
 

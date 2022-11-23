@@ -1,35 +1,28 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import count_info from "../images/circle_graph.png";
-import user_photo from "../images/seller_girl_image.png";
-import customerorder from "../images/customer_placeorder.png";
-import deliverproduct from "../images/deliver_product.png";
-import paid_sells from "../images/seller_2.png";
-import digitone from "../images/digit_1.png";
-import digittwo from "../images/digit_2.png";
-import digitthree from "../images/digit_3.png";
-import digitfour from "../images/digit_four.png";
+import image_url from "../Common/images";
+
+
 
 
 
 const Sellsdescribe = () => {
-
   return (
     <div>
       <Container>
         <div className="mt-5">
           <Row>
             <Col lg={6}>
-              <div className=" sellers_descriptions">
+              <div className="sellers_descriptions">
                 <h3>How to Sell on Shawkeen</h3>
               </div>
               <div className="mt-3">
-                <img src={user_photo} alt="" />
+                <img src={image_url.user_photo} alt="" />
               </div>
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitone} alt="" />
+                    <img src={image_url.digitone} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -46,12 +39,12 @@ const Sellsdescribe = () => {
             </Col>
             <Col lg={6}>
               <div className="mt-5">
-                <img src={customerorder} alt="" />
+                <img src={image_url.customerorder} alt="" />
               </div>
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digittwo} alt="" />
+                    <img src={image_url.digittwo} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -72,12 +65,12 @@ const Sellsdescribe = () => {
           <Row>
             <Col lg={6}>
               <div className="mt-3">
-                <img src={deliverproduct} alt="" />
+                <img src={image_url.deliverproduct} alt="" />
               </div>
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitthree} alt=""/>
+                    <img src={image_url.digitthree} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
@@ -94,12 +87,12 @@ const Sellsdescribe = () => {
             </Col>
             <Col lg={6}>
               <div className="mt-5">
-                <img src={paid_sells} alt="" />
+                <img src={image_url.paid_sells} alt="" />
               </div>
               <div className="mt-4">
                 <Row>
                   <Col lg={3}>
-                    <img src={digitfour} alt="" />
+                    <img src={image_url.digitfour} alt="" />
                   </Col>
                   <Col lg={9}>
                     <div className="seller_services">
