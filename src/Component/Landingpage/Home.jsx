@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Row, Col, Form,Input } from "react-bootstrap";
+import { Button, Container, Row, Col, Form } from "react-bootstrap";
 import Registercomponent from "./Registercomponent";
 import "./Home.css";
 import Sellsdescribe from "./Sellsdescribe";
