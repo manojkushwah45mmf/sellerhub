@@ -34,12 +34,32 @@ align-items: center !important;
 }
 
 .login_seller_btn{
- background: #FF0185 !important;
- border: 1px solid #FF0185 !important;
-  font-size: 18px !important;
+  background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%) !important;
+  border: 1px solid #FF0185 !important;
+  font-size: 14px !important;
   border-radius: 40px !important;
+  padding: 16px 30px !important;
+  font-weight: 600 !important;
 
     }
+
+
+  .login_seller_btn_1{
+
+    background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%) !important;
+    border: 1px solid #FF0185 !important;
+    font-size: 14px !important;
+    border-radius: 40px !important;
+    padding: 12px;
+    font-weight: 600 !important;
+
+
+
+  }
+
+
+
+
 
 .banner_show{
  background-image: url("../src/Component/images/seller_bg_image.png");

@@ -5,7 +5,9 @@ import Form from "react-bootstrap/Form";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
-import logo from "../images/Logo_with_border.svg";
+import image_url from "./images";
+
+
 
 const Header = () => {
   return (
@@ -13,7 +15,7 @@ const Header = () => {
       <Navbar className="header_bg" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">
-            <img src={logo} alt="" />
+            <img src={image_url.logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">

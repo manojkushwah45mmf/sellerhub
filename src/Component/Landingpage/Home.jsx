@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Row, Col, Form } from "react-bootstrap";
+import { Button, Container, Row, Col, Form,Input } from "react-bootstrap";
 import Registercomponent from "./Registercomponent";
 import "./Home.css";
 import Sellsdescribe from "./Sellsdescribe";
@@ -17,7 +17,7 @@ const Home = () => {
           <div className="p-0 top_header">
             <img src={image_url.side_logo} alt="" width={130} />
             <div>
-              <Button className="login_seller_btn" size="lg">
+              <Button className="login_seller_btn_1" size="lg">
                 Login for Existing Sellers{" "}
               </Button>
             </div>
@@ -38,11 +38,13 @@ const Home = () => {
                       className="mt-5 pass_value"
                       controlId="formBasicEmail"
                     >
+                
                       <Form.Control
                         type="text"
                         size="lg"
                         placeholder="Enter 10-digit mobile number here"
                       />
+                    
                       <div className="register_click">
                         <Button className="regis_btn">REGISTER NOW</Button>
                       </div>

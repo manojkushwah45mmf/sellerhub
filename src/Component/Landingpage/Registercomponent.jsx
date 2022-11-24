@@ -27,7 +27,7 @@ const Registercomponent = () => {
                 sit amet..", comes from a line in section 1.10.32.
               </p>
             </div>
-            <Button className="mt-3 login_seller_btn">Register Now</Button>
+            <Button className="mt-3 login_seller_btn">REGISTER NOW</Button>
           </Col>
           <Col lg={6}>
             <div className="text-center">

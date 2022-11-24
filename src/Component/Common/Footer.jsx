@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import play_store from "../images/playstore.png";
-import app_store from "../images/appstore.png";
 import { Icon } from "@iconify/react";
-import footer_icon from "../../Component/images/footer-shawkeen.png"
-
+import image_url from "./images";
 
 
 
@@ -16,7 +13,13 @@ const Footer = () => {
           <Row>
             <Col lg={3}>
               <div className="mt-5 white_logo">
-                <img  className="mb-3" src={footer_icon} alt="" width={150} /> <br/>
+                <img
+                  className="mb-3"
+                  src={image_url.footer_icon}
+                  alt=""
+                  width={150}
+                />{" "}
+                <br />
                 <span className="text-light fw-bold"> Address :</span>
                 <span className="text-light ms-2">
                   2972 Westheimer Rd. Santa Ana, Illinois 85486{" "}
@@ -61,9 +64,9 @@ const Footer = () => {
               <div className="mt-5  footer_link">
                 <p>Download Our App</p>
                 <div className="link_detail d-flex justify-content-between">
-                  <img src={app_store} alt="" width={130} />
+                  <img src={image_url.app_store} alt="" width={130} />
                   <div>
-                    <img src={play_store} alt="" width={130} />
+                    <img src={image_url.play_store} alt="" width={130} />
                   </div>
                 </div>
                 <div className="mt-4 social_link_detail">

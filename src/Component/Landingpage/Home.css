@@ -19,9 +19,9 @@
 .pass_value .form-control{
  border-radius: 25px;
  position: relative;
+ font-size: 14px;
+ padding: 14px;
 }
-
-
 
 .pass_value .form-control:focus{
 outline: none;
@@ -36,7 +36,7 @@ font-size: 18px!important;
 .sellers_descriptions h3{
 font-size: 40px;
 color: #0B0B0B;
-font-weight: 700;
+font-weight: 800;
 }
 
 
@@ -142,35 +142,32 @@ line-height: 1px;
  font-size: 13px;
 }
 
-
 .register_click{
 
 position: absolute;
-  top: 203px;
-  left: 455px;
+  top: 201px;
+  left: 369px;
 }
-
-
 
 .regis_btn{
-
-  font-size: 13px !important;
-  font-weight: 700 !important;
-   background: #FF0150 !important;
+ 
+   font-size: 13px !important;
+   font-weight: 700 !important;
+   background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%)!important;
    border-radius: 35px !important;
    border: none !important;
-  
+   padding: 9px 12px !important;
 }
 
- .pass_value.form-control ::placeholder{
+.pass_value{
 
- font-size: 14px;
+width: 100% !important;
+max-width: 507px!important;
+
+
+
 
 }
-
-
-
-
 
 
 

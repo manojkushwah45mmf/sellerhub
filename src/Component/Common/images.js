@@ -1,7 +1,5 @@
 const baseurl = "http://localhost:3000/";
 
-
-
 const image_url = {
   order_new: baseurl + "/assets/images/hands-icon.png",
   deliverreport: baseurl + "/assets/images/service_icon.png",
@@ -17,8 +15,11 @@ const image_url = {
   deliverproduct: baseurl + "assets/images/deliver_product.png",
   customerorder: baseurl + "assets/images/customer_placeorder.png",
   paid_sells: baseurl + "assets/images/seller_2.png",
-  digitfour: baseurl + "assets/images/digit_four.png"
-
+  digitfour: baseurl + "assets/images/digit_four.png",
+  footer_icon: baseurl + "assets/images/footer-shawkeen.png",
+  play_store: baseurl + "assets/images/playstore.png",
+  app_store: baseurl + "assets/images/appstore.png",
+  logo: baseurl + "assets/images/Logo_with_border.svg"
 
 };
 
