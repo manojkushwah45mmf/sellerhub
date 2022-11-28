@@ -9,8 +9,13 @@ import image_url from "../Common/images";
 
 
 
+
+
+
+
 const Home = () => {
-  return (
+
+    return (
     <div className="mt-3">
       <div className="banner_show">
         <Container>
@@ -38,13 +43,11 @@ const Home = () => {
                       className="mt-5 pass_value"
                       controlId="formBasicEmail"
                     >
-                
                       <Form.Control
                         type="text"
                         size="lg"
                         placeholder="Enter 10-digit mobile number here"
                       />
-                    
                       <div className="register_click">
                         <Button className="regis_btn">REGISTER NOW</Button>
                       </div>

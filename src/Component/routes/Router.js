@@ -8,7 +8,7 @@ import Home from "../Landingpage/Home";
 const Router = () => {
   return (
     <div>
-      <BrowserRouter basename="sellerhub/frontend">
+      <BrowserRouter>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/dashboard" component={Dashboard} />

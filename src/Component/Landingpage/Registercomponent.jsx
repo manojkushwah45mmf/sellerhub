@@ -5,8 +5,9 @@ import image_url from "../Common/images";
 
 
 
-const Registercomponent = () => {
 
+
+const Registercomponent = () => {
   return (
     <div>
       <Container>

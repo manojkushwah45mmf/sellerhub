@@ -41,10 +41,9 @@ align-items: center !important;
   padding: 16px 30px !important;
   font-weight: 600 !important;
 
-    }
+  }
 
-
-  .login_seller_btn_1{
+ .login_seller_btn_1{
 
     background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%) !important;
     border: 1px solid #FF0185 !important;
@@ -53,13 +52,7 @@ align-items: center !important;
     padding: 12px;
     font-weight: 600 !important;
 
-
-
   }
-
-
-
-
 
 .banner_show{
  background-image: url("../src/Component/images/seller_bg_image.png");
@@ -67,24 +60,118 @@ align-items: center !important;
  background-size: cover;
  height: 600px;
 
-
 }
 
 .bg-box{
     position: absolute;
     top: 69px;
-
 }
 
 
-/* .shopping_app{
- color: #fff;
- font-weight: bold;
-
-} */
 
 .shwakeen_today{
   color: #fff !important;
   font-weight: 400;
 }
+
+
+.order_set {
+  font-size: 17px !important;
+  font-weight: 500; 
+  }
+  
+  .due_date{
+    color: #3F3F3F;
+  font-size: 15px;
+  
+   }
+
+
+    .num_digit h4{
+    font-weight: 700;
+    line-height: 45px;
+    font-size: 36px;
+    color: #0B0B0B;
+    font-weight: 800;
+    font-family: 'Poppins';
+  }
+
+ .nav_list_dropdown button{
+  color: #fff !important;
+  font-weight: 500 !important;
+  width: 100%;
+  border:none;
+}
+
+.upperlist_show .nav_link{
+position: relative;
+
+}
+
+
+.upperlist_show .nav_link:after{
+   content: "";
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  display: block;
+  transition: all 0.7s ease; 
+
+}
+
+.upperlist_show .nav_link:hover::after {
+  width: 70%;
+  height: 2px;
+  background-color: #fff;
+
+}
+
+.visit_review_level{
+  border-top: 2px solid #2D6BE0 !important;
+    
+
+
+  }
+
+.rating_show{
+
+font-size: 45px;
+font-weight: 700;
+
+
+}
+
+
+.measurement{
+
+color: #0B0B0B;
+font-weight: 500;
+position: relative;
+
+}
+
+.measurement::before{
+  content: "";
+  position: absolute;
+  background: #FF0150;
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  top: 4px;
+  left: -19px;
+}
+
+.list_digit{
+font-size: 36px;
+font-weight: 700;
+font-family: "poppins";
+
+}
+
+
+
+
+
+
+
 

@@ -5,6 +5,8 @@ import image_url from "./images";
 
 
 
+
+
 const Footer = () => {
   return (
     <div>

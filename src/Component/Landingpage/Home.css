@@ -120,12 +120,16 @@ font-weight: 600;
 
 }
 
-.num_digit h4{
+/* .num_digit h4{
 
   font-weight: 700;
   line-height: 45px;
+  font-size: 36px;
+  color: #0B0B0B;
+  font-weight: 800;
+} */
 
-}
+
 
 .border_radius_line{
 border-top: 2px solid #2D6BE0 ;
@@ -144,14 +148,13 @@ line-height: 1px;
 
 .register_click{
 
-position: absolute;
+ position: absolute;
   top: 201px;
   left: 369px;
 }
 
-.regis_btn{
- 
-   font-size: 13px !important;
+ .regis_btn{
+    font-size: 13px !important;
    font-weight: 700 !important;
    background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%)!important;
    border-radius: 35px !important;
@@ -164,12 +167,89 @@ position: absolute;
 width: 100% !important;
 max-width: 507px!important;
 
+}
 
+    /*.............. Custom-header css............ */
 
+.header_top ul{
+  list-style-type: none;
+  display: flex;
+  font-weight: 500;
+  padding: 0;
+  color: #fff;
+  margin-top: revert;
+  align-items: center;
 
 }
 
 
+.header_top li{
+
+padding: 2px 15px;
+
+}
+
+.header_top{
+
+align-items: center;
+
+}
+
+
+.header_bg_area{
+
+  background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%)!important;
+}
+
+
+a {
+  text-decoration-line: none !important;
+  color: #fff !important;
+
+}    
+
+.user_info{
+
+background: none!important;
+border: none!important;
+
+
+}
+
+.order_set {
+
+font-size: 17px !important;
+font-weight: 500; 
+}
+
+.due_date{
+color: #3F3F3F;
+font-size: 15px;
+}
+
+.payment_choice{
+font-size: 20px;
+font-weight: 600;
+
+}
+
+.payment_list{
+ align-items: center;
+
+}
+
+.payment-choice{
+
+font-weight: 600;
+font-size: 18px;
+
+}
+/* .payment_list h2{
+
+
+
+}
+ */
 
 
 

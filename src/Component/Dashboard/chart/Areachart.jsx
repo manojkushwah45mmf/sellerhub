@@ -1,30 +1,25 @@
 import React from "react";
-
 import {
- 
   XAxis,
   YAxis,
   CartesianGrid,
   Tooltip,
- 
   AreaChart,
   Area,
- 
-} from "recharts";
-
+} from  "recharts";
 
 
 
 const data = [
   {
     name: "1 Apr",
-    uv: 4000,
+    uv: 3000,
     pv: 2400,
-    amt: 2400,
+    amt: 1500,
   },
   {
     name: "6 Apr",
-    uv: 3000,
+    uv: 1800,
     pv: 1398,
     amt: 2210,
   },
@@ -56,16 +51,14 @@ const data = [
 
 
 
-
 const Areachart = () => {
   return (
     <div>
-
-  <p className="fw-bold">Gross Revenue</p>
+      <p className="fw-bold">Gross Revenue</p>
 
       <AreaChart
         width={430}
-        height={250}
+        height={180}
         data={data}
         margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
       >
@@ -74,7 +67,6 @@ const Areachart = () => {
             <stop offset="5%" stopColor="red" stopOpacity={0.2} />
             <stop offset="95%" stopColor="red" stopOpacity={0} />
           </linearGradient>
-        
         </defs>
         <XAxis dataKey="name" />
         <YAxis />
@@ -87,7 +79,6 @@ const Areachart = () => {
           fillOpacity={1}
           fill="url(#colorUv)"
         />
-      
       </AreaChart>
     </div>
   );
