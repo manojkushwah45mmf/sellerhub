@@ -5,26 +5,22 @@ import "./Home.css";
 import Sellsdescribe from "./Sellsdescribe";
 import Footer from "../Common/Footer";
 import image_url from "../Common/images";
-
-
-
-
-
-
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
-
-    return (
+  return (
     <div className="mt-3">
       <div className="banner_show">
         <Container>
           <div className="p-0 top_header">
             <img src={image_url.side_logo} alt="" width={130} />
             <div>
-              <Button className="login_seller_btn_1" size="lg">
-                Login for Existing Sellers{" "}
-              </Button>
+              <Link to="/dashboard/">
+                {" "}
+                <Button className="login_seller_btn_1" size="lg">
+                  Login for Existing Sellers{" "}
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="mt-5 position-relative">
