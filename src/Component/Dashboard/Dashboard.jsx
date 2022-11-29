@@ -6,12 +6,15 @@ import image_url from "../Common/images";
 import Review from "./Review";
 import ReactStars from "react-rating-stars-component";
 
-import Dasboardlistcomponent from "./Dasboardlistcomponent";
 
-const Dashboard = () => {
-  const ratingChanged = (newRating) => {
+
+
+    import Dasboardlistcomponent from "./Dasboardlistcomponent";
+    const Dashboard = () => {
+    const ratingChanged = (newRating) => {
     console.log(newRating);
-  };
+    };
+
 
   return (
     <div>
@@ -58,7 +61,7 @@ const Dashboard = () => {
             </Row>
             <Row>
               <Col lg={6}>
-                <Row className="border_radius_line">
+                <Row className="p-2 border_radius_line">
                   <Col lg={6}>
                     <p className="ms-4 order_text">Returns</p>{" "}
                     <div className=" text-center p-3">
@@ -89,14 +92,14 @@ const Dashboard = () => {
                 <Areachart />
               </Col>
             </Row>
-            <Row className="border_radius_line">
-              <Col lg={6}>
-                <div className="p-4">
+            <Row >
+              <Col lg={6} >
+                <div className="p-4 border_radius_line">
                   <p className="payment-choice">Payments</p>
 
                   <div className="d-flex justify-content-between payment_list">
                     <div>
-                      <span className=" order_set">New Orders</span>
+                      <span className="order_set">New Orders</span>
                       <br />
                       <span className="due_date">Due on Mar 23, 2020</span>
                     </div>
@@ -116,11 +119,10 @@ const Dashboard = () => {
                   </div>
                 </div>
               </Col>
-              <Col lg={6}>
-                <div className="p-4">
+              <Col lg={6} >
+                <div className="p-4 border_radius_line">
                   <p className="payment-choice">Seller Rating</p>
-
-                  <div className="d-flex payment_list">
+                   <div className="d-flex payment_list">
                     <h2 className="rating_show">4.5 </h2>
                     <div>
                       {" "}
@@ -132,9 +134,7 @@ const Dashboard = () => {
                       />
                     </div>
                   </div>
-
                   <span className="due_date">Gold</span>
-
                   <div className="mt-3 d-flex justify-content-between payment_list">
                     <div>
                       <span className="measurement">Gold = 4.3 - 5.0</span>
@@ -152,11 +152,8 @@ const Dashboard = () => {
             </Row>
           </div>
           <div className="p-1">
-           
-          <Dasboardlistcomponent/>
-
+            <Dasboardlistcomponent />
           </div>
-
         </Col>
         <Col lg={3}>
           <Review />

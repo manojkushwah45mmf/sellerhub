@@ -1,5 +1,7 @@
 const baseurl = "http://localhost:3000/";
 
+
+
 const image_url = {
   order_new: baseurl + "/assets/images/hands-icon.png",
   deliverreport: baseurl + "/assets/images/service_icon.png",
@@ -19,7 +21,10 @@ const image_url = {
   play_store: baseurl + "assets/images/playstore.png",
   app_store: baseurl + "assets/images/appstore.png",
   logo: baseurl + "assets/images/Logo_with_border.svg",
-  top_side: baseurl + "assets/images/dash_nav_logo.png"
+  top_side: baseurl + "assets/images/dash_nav_logo.png",
+  profilecircle : baseurl + "assets/images/circleprofile.svg"
+
+
 };
 
 export default image_url;

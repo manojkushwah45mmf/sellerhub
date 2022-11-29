@@ -51,11 +51,13 @@ const data = [
 
 
 
-const Areachart = () => {
-  return (
-    <div>
-      <p className="fw-bold">Gross Revenue</p>
+const Areachart = () =>{
 
+
+
+  return (
+    <div className=" p-2 border_radius_line">
+      <p className="fw-bold">Gross Revenue</p>
       <AreaChart
         width={430}
         height={180}

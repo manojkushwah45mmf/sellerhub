@@ -1,12 +1,15 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+import { Container, Form } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
 import { Icon } from "@iconify/react";
 import image_url from "./images";
 
-const Header = () => {
+
+const Header = () =>{
+
+
   return (
     <div className="header_bg_area">
       <Container fluid>
@@ -39,11 +42,7 @@ const Header = () => {
                 title="Orders"
                 menuVariant="dark"
               >
-                <Dropdown.Item href="#/action-1">First List</Dropdown.Item>
-                <Dropdown.Item href="#/action-2">Second List</Dropdown.Item>
-                <Dropdown.Item href="#/action-3">third list</Dropdown.Item>
-                <Dropdown.Item href="#/action-4">fourth list</Dropdown.Item>
-                <Dropdown.Item href="#/action-5"></Dropdown.Item>
+                <Dropdown.Item href="#/action-1">Return Orders</Dropdown.Item>
               </DropdownButton>
             </li>
             <li className="nav_link">
@@ -58,7 +57,9 @@ const Header = () => {
           </ul>
           <div>
             <ul>
-              <li></li>
+              <li>
+                <Form.Control className="dashboard_nav_field" type="email" placeholder="Enter email" />
+              </li>
               <li>
                 <Icon className="icv" icon="il:bell" />
               </li>
@@ -70,9 +71,10 @@ const Header = () => {
                   title="Manpreet cloth store"
                   menuVariant="dark"
                 >
-                  <Dropdown.Item href="#/action-1">First review </Dropdown.Item>
-                  <Dropdown.Item href="#/action-2">Second Review</Dropdown.Item>
-                  <Dropdown.Item href="#/action-3">third Review</Dropdown.Item>
+                  <Dropdown.Item href="#/action-1">
+                    Manage Account{" "}
+                  </Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Logout</Dropdown.Item>
                 </DropdownButton>
               </li>
             </ul>
