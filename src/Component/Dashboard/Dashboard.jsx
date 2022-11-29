@@ -5,7 +5,7 @@ import Areachart from "./chart/Areachart";
 import image_url from "../Common/images";
 import Review from "./Review";
 import ReactStars from "react-rating-stars-component";
-import { render } from "react-dom";
+
 import Dasboardlistcomponent from "./Dasboardlistcomponent";
 
 const Dashboard = () => {
