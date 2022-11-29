@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,600&display=swap');
+
+
+ body {
+  font-family: 'Poppins', sans-serif !important;
+
+ }
+
+.list_filtr_top{
+ display: flex;
+ justify-content: space-between;
+}
+
+.filtr_btn{
+    padding: 13px 33px !important;
+    border-radius: 31px !important;
+    font-weight: 700 !important;
+    color: #FF0150 !important;
+    border-color: #FF0150 !important;
+    border-radius: 30px !important;
+}
+
+.filter_btn:hover{
+ color: #fff !important;
+
+}
+
+.add_list_btn{
+    padding: 13px 33px !important;
+    border-radius: 31px !important;
+    background: linear-gradient(90deg, #FF0150 0%, #FF0185 100%);
+    border-radius:100px;
+    border: 1px solid #FF0150 !important;
+    font-weight: 600 !important;
+
+}
+
+
+
+
+
+
+

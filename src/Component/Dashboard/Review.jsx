@@ -6,6 +6,8 @@ const ratingChanged = (newRating) => {
   console.log(newRating);
 };
 
+
+
 const Review = () => {
   return (
     <div className="mt-2 p-3">

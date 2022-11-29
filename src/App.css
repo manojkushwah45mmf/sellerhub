@@ -173,6 +173,10 @@ text-align: justify;
 
 }
 
+.dropdown_pic{
+display: flex;
+align-items: center;
 
+}
 
 
