@@ -11,6 +11,7 @@
  justify-content: space-between;
 }
 
+
 .filtr_btn{
     padding: 13px 33px !important;
     border-radius: 31px !important;
@@ -20,10 +21,11 @@
     border-radius: 30px !important;
 }
 
+
 .filter_btn:hover{
  color: #fff !important;
-
 }
+
 
 .add_list_btn{
     padding: 13px 33px !important;
@@ -32,8 +34,71 @@
     border-radius:100px;
     border: 1px solid #FF0150 !important;
     font-weight: 600 !important;
+}
+
+
+.list_filtr_top ul{
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
 
 }
+
+.search_list{
+    background: none!important;
+    border: none !important;
+    padding: 0px 2px !important;
+    
+}
+.search_list svg{
+ color: #84878D !important;
+ font-weight: 200 !important;
+
+}
+
+
+
+
+.tb1 th{
+
+background-color: #FF0150 !important;
+color: #fff;
+font-weight: 500 !important;
+padding: 20px 0px !important;
+
+}
+
+.icv2{
+
+font-size: 33px!important;
+color: #FF0150;
+
+}
+
+   .table_header_dropdown button{
+    color: #fff !important;
+    font-weight: 500 !important;
+    border:none;
+}
+
+ .modal-header{
+ background: #FF0150 !important ;
+ color: #fff;
+
+}
+
+.acc_collapse_list{
+
+    border: none !important;
+    
+ 
+    }
+    
+
+
+
+
 
 
 

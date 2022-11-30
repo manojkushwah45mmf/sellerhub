@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Form } from "react-bootstrap";
+import { Container, Form, InputGroup } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Dropdown from "react-bootstrap/Dropdown";
 import DropdownButton from "react-bootstrap/DropdownButton";
@@ -9,6 +9,7 @@ import image_url from "./images";
 
 
 const Header = () => {
+
   return (
     <div className="header_bg_area">
       <Container fluid>
@@ -63,11 +64,14 @@ const Header = () => {
           <div>
             <ul>
               <li>
+              <InputGroup>
+              <InputGroup.Text className="search_list"><Icon icon="il:search" fontSize="26px"></Icon></InputGroup.Text>
                 <Form.Control
                   className="dashboard_nav_field"
                   type="text"
-                  placeholder="Search.."
+                  placeholder=""
                 />
+                </InputGroup>
               </li>
               <li>
                 <Icon className="icv" icon="il:bell" />
@@ -77,7 +81,7 @@ const Header = () => {
               <img src={image_url.profilecircle} alt="" />
 
                 <DropdownButton
-                  className="nav_list_dropdown"
+                  className="nav_list_dropdown"f
                   variant="red"
                   id="dropdown-basic-button"
                   title="Manpreet cloth store"

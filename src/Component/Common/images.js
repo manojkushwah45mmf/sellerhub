@@ -22,7 +22,10 @@ const image_url = {
   app_store: baseurl + "assets/images/appstore.png",
   logo: baseurl + "assets/images/Logo_with_border.svg",
   top_side: baseurl + "assets/images/dash_nav_logo.png",
-  profilecircle : baseurl + "assets/images/circleprofile.svg"
+  profilecircle : baseurl + "assets/images/circleprofile.svg",
+  dress_design : baseurl + "assets/images/dress_icon.png",
+  eye_logo : baseurl + "assets/images/eyes.png",
+  three_layer : baseurl + "assets/images/three_dots.png"
 
 
 };
