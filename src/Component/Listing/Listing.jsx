@@ -5,7 +5,7 @@ import Header from "../Common/Header";
 import "./listing.css";
 import Listingtable from "./Listingtable";
 import Addfilter from "./modal/Addfilter";
-import Listdelete from "./modal/Listdelete";
+
 
 const Listing = () => {
   const [show, setShow] = useState(false);
@@ -84,7 +84,7 @@ const Listing = () => {
           <Col lg="3"></Col>
         </Row>
         <Listingtable />
-        <Addfilter show={show} onHide={()=> setShow(false)} />
+        <Addfilter show={show} onHide={handleClose} />
        
       </div>
     </div>
