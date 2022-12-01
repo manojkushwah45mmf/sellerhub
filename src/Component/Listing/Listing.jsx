@@ -6,7 +6,6 @@ import "./listing.css";
 import Listingtable from "./Listingtable";
 import Addfilter from "./modal/Addfilter";
 
-
 const Listing = () => {
   const [show, setShow] = useState(false);
 
@@ -52,7 +51,7 @@ const Listing = () => {
         </div>
         <Row>
           <Col lg="9">
-            <div className="p-4 border_radius_line">
+            <div className="ms-3 p-4 border_radius_line">
               <Row>
                 <Col lg={2}>
                   <h1 className="list_digit">46</h1>
@@ -85,7 +84,6 @@ const Listing = () => {
         </Row>
         <Listingtable />
         <Addfilter show={show} onHide={handleClose} />
-       
       </div>
     </div>
   );

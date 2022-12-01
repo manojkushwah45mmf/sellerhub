@@ -18,7 +18,8 @@ const Header = () => {
             <li className="nav_link">
               <img src={image_url.top_side} alt="" />
             </li>
-            <li className="nav_link">Dashboard</li>
+           <Link to="/dashboard/">
+            <li className="nav_link">Dashboard</li></Link>
             <li className="nav_link">
             <Link to ="/listing/">
               <DropdownButton
