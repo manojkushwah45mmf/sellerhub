@@ -6,15 +6,11 @@ import image_url from "../Common/images";
 import Review from "./Review";
 import ReactStars from "react-rating-stars-component";
 
-
-
-
-    import Dasboardlistcomponent from "./Dasboardlistcomponent";
-    const Dashboard = () => {
-    const ratingChanged = (newRating) => {
+import Dasboardlistcomponent from "./Dasboardlistcomponent";
+const Dashboard = () => {
+  const ratingChanged = (newRating) => {
     console.log(newRating);
-    };
-
+  };
 
   return (
     <div>
@@ -92,8 +88,8 @@ import ReactStars from "react-rating-stars-component";
                 <Areachart />
               </Col>
             </Row>
-            <Row >
-              <Col lg={6} >
+            <Row>
+              <Col lg={6}>
                 <div className="p-4 border_radius_line">
                   <p className="payment-choice">Payments</p>
 
@@ -119,10 +115,10 @@ import ReactStars from "react-rating-stars-component";
                   </div>
                 </div>
               </Col>
-              <Col lg={6} >
+              <Col lg={6}>
                 <div className="p-4 border_radius_line">
                   <p className="payment-choice">Seller Rating</p>
-                   <div className="d-flex payment_list">
+                  <div className="d-flex payment_list">
                     <h2 className="rating_show">4.5 </h2>
                     <div>
                       {" "}

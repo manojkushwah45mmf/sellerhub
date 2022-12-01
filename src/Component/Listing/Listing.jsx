@@ -5,16 +5,17 @@ import { Button, Form, InputGroup, Row, Col } from "react-bootstrap";
 import Header from "../Common/Header";
 import "./listing.css";
 import Listingtable from "./Listingtable";
-import Addfilter from "./modal/Addfilter";
+// import Addfilter from "./modal/Addfilter";
+import Listdelete from "./modal/Listdelete";
 
 const Listing = () => {
     const [show, setShow] = useState(false);
+
+   
+
     const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const handleShow = () => setShow(true);
   
-
-
-
 
 
   return (
@@ -83,9 +84,9 @@ const Listing = () => {
       </Col>
       <Col lg="3"></Col>
       </Row>
-      <Listingtable />
+      <Listingtable/>
       <Addfilter show={show} onHide={handleClose}/>
-      
+      <Listdelete open={openModal} onHide={handleClose}  /> 
 
    </div>
     </div>

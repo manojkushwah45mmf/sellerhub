@@ -4,11 +4,7 @@ import image_url from "../Common/images";
 
 
 
-
-
 const Sellsdescribe = () => {
- 
- 
   return (
     <div>
       <Container>

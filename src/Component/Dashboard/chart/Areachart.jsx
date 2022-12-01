@@ -6,9 +6,7 @@ import {
   Tooltip,
   AreaChart,
   Area,
-} from  "recharts";
-
-
+} from "recharts";
 
 const data = [
   {
@@ -49,12 +47,7 @@ const data = [
   },
 ];
 
-
-
-const Areachart = () =>{
-
-
-
+const Areachart = () => {
   return (
     <div className=" p-2 border_radius_line">
       <p className="fw-bold">Gross Revenue</p>
