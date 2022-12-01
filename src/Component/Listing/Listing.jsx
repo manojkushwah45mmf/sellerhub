@@ -85,7 +85,7 @@ const Listing = () => {
         </Row>
         <Listingtable />
         <Addfilter show={show} onHide={()=> setShow(false)} />
-        <Listdelete open={openModal} onHide={handleClose} />
+       
       </div>
     </div>
   );
