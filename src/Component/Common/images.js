@@ -1,6 +1,6 @@
 // const baseurl = "http://localhost:3000/";
 
-const baseurl = "https://mmfsellershub.netlify.app";
+const baseurl = "https://mmfsellershub.netlify.app/";
 
 
 
